@@ -445,8 +445,3 @@
     ourArray.unshift("Florin");
     console.log(ourArray)
 */
-
-//
-/*
-
-*/
