@@ -1,15 +1,9 @@
-# JavaScript_Journal
+# Ron's JavaScript_Journal
 
-//////////////////////////////////////////
-// Personal Notes from Ron Wollschläger //
-//////////////////////////////////////////  
-
-
-// in-line comment  
+## In-line comment  
 // Hello iCoders!
 
-
-// Multi-line comment  
+## Multi-line comment  
 /*  
     I love my wife,
     because she doesn't
@@ -18,7 +12,7 @@
 */
 
 
-// Data types:
+## Data types:
 /* 
     1. Undefined: Data type is not defined
     2. Null: Nothing
@@ -30,7 +24,7 @@
 */
 
 
-// Variables
+## Variables
 /*
     Variables can store data. Like a label for a box with stuff you put inside.
     Variables are var, let and const.
@@ -49,7 +43,7 @@
 */
 
 
-// Storing Values with assignment operators
+## Storing Values with assignment operators
 /*
     There is a difference between declaring or assigning variables.
 
@@ -62,7 +56,7 @@
 */
 
 
-// Case sensitivity in variables
+## Case sensitivity in variables
 /*
     Variables and function names in JavaScript are Case sensitive.
     That means that capitalization matters.
@@ -78,39 +72,66 @@
 */
 
 
-// Adding numbers with '+'                   // Subtraction numbers with '-'
+## Adding numbers with '+'
 /*
-    var sum = 10 + 10;                      var difference = 45 - 33;
-    console.log(sum)                        console.log(difference)
+    var sum = 10 + 10;
+    console.log(sum)
 
-    The console will show you "20".         The console will show you "12".
+    The console will show you "20".
+*/
+
+## Subtraction numbers with '-'
+/*
+    var difference = 45 - 33;
+    console.log(difference)
+
+    The console will show you "12".
 */
 
 
-// Multiplying numbers with '*'             // Dividing numbers with '/'
+## Multiplying numbers with '*'
 /*
-    var product = 8 * 10;                   var quotient = 66 / 33;
-    console.log(product)                    console.log(quotient)
+    var product = 8 * 10;
+    console.log(product)
 
-    The console will show you "80".         The console will show you "2".
+    The console will show you "80".
 */
 
-
-// Incrementing numbers (add 1)             // Decrementing numbers (subtract 1)
+## Dividing numbers with '/'
 /*
-    To increment a number means             To decrementing a number means
-    to add 1 to it.                         to subtract 1 from it.
+    var quotient = 66 / 33;
+    onsole.log(quotient)
 
-    var myVar = 87;                         var myVar = 87;
-    myVar++;   ->   myVar = 88;             myVar--;   ->   myVar = 86;
-    /\                                      /\
-    |                                       |
-    This will increment or add 1            This will decrement or subtract
-    to my variable.                         1 from my variable.
+    The console will show you "2".
 */
 
+## Incrementing numbers (add 1)
+/*
+    To increment a number means
+    to add 1 to it.
 
-// Decimal numbers
+    var myVar = 87;
+    myVar++;   ->   myVar = 88;
+    /\
+    |
+    This will increment or add 1
+    to my variable.
+*/
+
+## Decrementing numbers (subtract 1)
+/*
+    To decrementing a number means
+    to subtract 1 from it.
+
+    var myVar = 87;
+     myVar--;   ->   myVar = 86;
+    /\
+    |
+    This will decrement or subtract
+    1 from my variable.
+*/
+
+## Decimal numbers
 /*
     Decimal numbers are sometimes referred
     to as floating point numbers or floats.
@@ -122,7 +143,7 @@
 */
 
 
-// Finding a remainder
+## Finding a remainder
 /*
     The remainder operator looks like a '%' sign,
     and it gives the remainder of a division of tow numbers.
@@ -139,38 +160,59 @@
 */
 
 
-// Compound assignment with augmented addition                  // Compound assignment with augmented subtraction
+## Compound assignment with augmented addition
 /*
-    var a = 3;                                                  var a = 11;
-    var b = 17;                                                 var b = 9;
-    var c = 12;                                                 var c = 3;
+    var a = 3;
+    var b = 17;
+    var c = 12;
 
-    a = a + 12;     ->      a += 12;                            a = a - 6;      ->      a -= 6;
-    b = 9 + b;      ->      b += 9;                             b = b - 15;     ->      b -= 15;
-    c = c + 7;      ->      c += 7;                             c = c - 1;      ->      c -= 1;
+    a = a + 12;     ->      a += 12;
+    b = 9 + b;      ->      b += 9;
+    c = c + 7;      ->      c += 7;
+*/
+
+## Compound assignment with augmented subtraction
+/*
+    var a = 11;
+    var b = 9;
+    var c = 3;
+
+    a = a - 6;      ->      a -= 6;
+    b = b - 15;     ->      b -= 15;
+    c = c - 1;      ->      c -= 1;
+
+
+## Compound assignment with augmented multiplication
+/*
+    var a = 3;
+    var b = 17;
+    var c = 12;
+
+    a = a * 12;     ->      a *= 12;
+    b = 9 * b;      ->      b *= 9;
+    c = c * 7;      ->      c *= 7;
+*/
+
+## Compound assignment with augmented division
+/*
+    var a = 11;
+    var b = 9;
+    var c = 3;
+
+    a = a /6;      ->    a /= 6;
+    b = b / 15;    ->    b /= 15;
+    c = c / 1;     ->    c /= 1;
 */
 
 
-// Compound assignment with augmented multiplication            // Compound assignment with augmented division
-/*
-    var a = 3;                                                  var a = 11;
-    var b = 17;                                                 var b = 9;
-    var c = 12;                                                 var c = 3;
-
-    a = a * 12;     ->      a *= 12;                            a = a / 6;      ->      a /= 6;
-    b = 9 * b;      ->      b *= 9;                             b = b / 15;     ->      b /= 15;
-    c = c * 7;      ->      c *= 7;                             c = c / 1;      ->      c /= 1;
-*/
-
-
-// Declare string variables
+## Declare string variables
 /*
     var firstName = "Ron";
     var lastName = "Wollschläger";
 */
 
 
-// Escaping literal quotes in strings
+## Escaping literal quotes in strings
 /*
     You can not use double quote inside an double quote.
     To tell JavaScript that this is a normal quotation mark, you
@@ -190,7 +232,7 @@
 */
 
 
-// Escape sequences in strings
+## Escape sequences in strings
 /*
     CODE    OUTPUT
     \'      single quote
@@ -207,7 +249,7 @@
 */
 
 
-// Concatenating strings with plus operator
+## Concatenating strings with plus operator
 /*
     var myString = "I come first. " + "I come second.";
     console.log(myString)       ->      "I come first. I come second."
@@ -216,7 +258,7 @@
 */
 
 
-// Concatenating strings with plus equals operator
+## Concatenating strings with plus equals operator
 /*
     Just like using numbers, '+=' means that you take whatever
     is on the end here and add it to the variable.
@@ -227,7 +269,7 @@
 */
 
 
-// Constructing strings with variables
+## Constructing strings with variables
 /*
     You can concatenate strings together with variables.
 
@@ -237,7 +279,7 @@
 */
 
 
-// Appending variables to strings
+## Appending variables to strings
 /*
     You can append variables to strings with this += operator.
 
@@ -248,7 +290,7 @@
 */
 
 
-// Find length of string
+## Find length of string
 /*
     To find the length of a string, we use
     the '.length' property to find the length.
@@ -261,7 +303,7 @@
 */
 
 
-// Bracket notation to find first character in string
+## Bracket notation to find first character in string
 /*
     Bracket notation is a way to get a character
     at a specific index within a string.
@@ -278,7 +320,7 @@
 */
 
 
-// String Immutability
+## String Immutability
 /*
     Strings are immutable, meaning they can
     not be altered once created. This does not
@@ -297,7 +339,7 @@
 */
 
 
-// Bracket notation to find Nth character in string
+## Bracket notation to find Nth character in string
 /*
     You can use bracket notation to get any character
     position in a string.
@@ -308,7 +350,7 @@
 */
 
 
-// Bracket notation to find last character in string
+## Bracket notation to find last character in string
 /*
     You can also use bracket notation
     to find the last letter in a string.
@@ -323,7 +365,7 @@
 */
 
 
-// Bracket notation to find Nth-to-Last character in string
+## Bracket notation to find Nth-to-Last character in string
 /*
     To get the second last letter or more, you can simply subtract
     more, depend on however much you want from the length of the sting.
@@ -334,7 +376,7 @@
 */
 
 
-// Exercise - Word Blanks
+## Exercise - Word Blanks
 /*
     function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
         var result = "";
@@ -346,7 +388,7 @@
 */
 
 
-// Store multiple values with arrays
+## Store multiple values with arrays
 /*
     Arrays allow you to store several pieces of data in one place.
 
@@ -355,7 +397,7 @@
 */
 
 
-// Nested arrays
+## Nested arrays
 /*
     When one of the elements in an array is another
     array, that's called a nested array or multidimensional array.
@@ -364,7 +406,7 @@
 */
 
 
-// Access array data with indexes
+## Access array data with indexes
 /*
     var ourArray = [50, 60, 70];
         0 = 50, 60 = 1, 70 = 2
@@ -374,7 +416,7 @@
 */
 
 
-// Modify array data with indexes
+## Modify array data with indexes
 /*
     You can use array indexes to modify arrays.
 
@@ -384,7 +426,7 @@
 */
 
 
-// Access multi-dimensional arrays
+## Access multi-dimensional arrays
 /*
     You can also use bracket notation to select an element
     in a multi-dimensional or array of arrays.
@@ -401,7 +443,7 @@
 */
 
 
-// Manipulate array with push()
+## Manipulate array with push()
 /*
     You can have pinned data to the end of an
     array with the push function.
@@ -414,7 +456,7 @@
 */
 
 
-// Manipulate Arrays with pop()
+## Manipulate Arrays with pop()
 /*
     We can remove an item from an array
     with the pop() function here.
@@ -425,7 +467,7 @@
 */
 
 
-// Manipulate Arrays with shift()
+## Manipulate Arrays with shift()
 /*
     The shift() function is very similar to the pop function
     except it removes the first element of the array instead
@@ -437,7 +479,7 @@
     now equals ["Peter", ["cat"]]
 */
 
-// Manipulate arrays with unshift()
+## Manipulate arrays with unshift()
 /*
     The unshift() function is similar to the push() array function.
     While push() adds an element to the end of the array,
