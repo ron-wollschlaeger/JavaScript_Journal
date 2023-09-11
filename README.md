@@ -1,15 +1,15 @@
 # JavaScript_Journal
 
-//////////////////////////////////////////
-// Personal Notes from Ron Wollschläger //
-//////////////////////////////////////////
+//////////////////////////////////////////  
+// Personal Notes from Ron Wollschläger //  
+//////////////////////////////////////////  
 
 
-// in-line comment
+// in-line comment  
 // Hello iCoders!
 
 
-// Multi-line comment<br>
+// Multi-line comment  
 /*  
     I love my wife,
     because she doesn't
