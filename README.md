@@ -1,4 +1,5 @@
 # Ron's JavaScript_Journal
+Learning with freeCodeCamp.org -> https://www.youtube.com/watch?v=PkZNo7MFNFg&t=2940s
 
 ## In-line comment  
     // Hello iCoders!
@@ -347,8 +348,7 @@ The shift() function is very similar to the pop function except it removes the f
 
     var ourArray = ["Ron", "Peter", ["cat"]];
     var removedFromOurArray = ourArray.shift();
-    //removedFromOurArray now equals "Ron" and ourArray
-    now equals ["Peter", ["cat"]]
+    //removedFromOurArray now equals "Ron" and ourArray now equals ["Peter", ["cat"]]
 
 ## Manipulate arrays with unshift()
 The unshift() function is similar to the push() array function. While push() adds an element to the end of the array, unshift() adds at element to the beginning of the array.
@@ -356,3 +356,18 @@ The unshift() function is similar to the push() array function. While push() add
     var ourArray = ["Ron", "Minion", "JJ"];
     ourArray.unshift("Florin");
     console.log(ourArray)
+    ourArray = ["Florin", "Ron", "Minions", "JJ];
+
+## Shopping List
+Another example of nested arrays:
+    var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]]
+
+## Write reusable code with functions
+Functions allow us to create reusable code in Javascript.
+    Function    Function name   Parenthesis (Where you can pass information into the parenthesis)
+    |             |             |
+    \/            \/            \/ 
+    function ourReusableFunction() { <- Opening curly brackets (Start of a function, when called)
+        console.log("Hello, World");
+    } <- Closing curly brackets (End of a function, when called)
+    ourReusableFunction();
