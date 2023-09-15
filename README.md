@@ -398,6 +398,7 @@ Another example of nested arrays:
 
 ## Write reusable code with functions
 Functions allow us to create reusable code in Javascript.
+
     Function    Function name   Parenthesis (Where you can pass information into the parenthesis)
     |             |             |
     \/            \/            \/ 
