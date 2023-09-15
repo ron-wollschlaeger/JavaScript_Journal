@@ -85,7 +85,7 @@ Variables and function names in JavaScript are Case sensitive. That means that c
 
 ## Dividing numbers with '/'
     var quotient = 66 / 33;
-    onsole.log(quotient)
+    console.log(quotient)
 
     The console will show you "2".
 
@@ -418,3 +418,70 @@ Parameters are variables that act as place holders for the values that are to be
         console.log(a - b);
     }
     ourFunctionWithArgs(10, 5); // Outputs 5
+
+
+## Global Scope and Functions
+Scope refers to the visibility of variables. Variables which are defined outside of a function block have global scope.
+Global scope means they can be seen everywhere in your Javascript code.
+
+    var varOutsideFunction = 1;     <- can be seen everywhere
+    let letOutsideFunction = 2;     <- can be seen everywhere
+    const constOutsideFunction = 3; <- can be seen everywhere
+
+    function rndFunction() {
+    var varInsideFunction = 1;      <- can only be seen inside the function
+    let letInsideFunction = 2;      <- can only be seen inside the function
+    const constInsideFunction = 3;  <- can only be seen inside the function
+    }
+
+This will get updated, later on, when I learn more about it.
+
+
+## Local Scope and Function
+Variables which are declared within a function as well as the function parameters have local scope.
+
+    function myLocalScope() {
+        var myVar = 5;
+        console.log(myVar);
+    }
+    myLocalScope(); // Output: 5
+
+    console.log(myVar); // Output: myVar is not defined
+
+
+## Global vs. Local Scope in Functions
+It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedent over the global variable.
+
+Example 01:
+
+    var outerWear = "T-Shirt";
+
+    function myOutfit() {
+        return outerWear;
+    }
+
+    console.log(myOutfit()); // Output: "T-Shirt"
+
+Example 02:
+
+    function myOutfit() {
+        var outerWear = "sweater";
+        return outerWear;
+    }
+
+    console.log(myOutfit());    // Output: "sweater"
+    console.log(outerWear);     // Output: "T-Shirt"
+
+
+## Return a Value from a Function with Return
+You can return a value from a function with this return statement. Return also ends the function.
+
+    function minusSeven(num) {
+        return num - 7;
+    }
+
+    console.log(minusSeven(10)) // Output: 3
+
+
+## Understanding Undefined Value Returned from a Function
+Next...
