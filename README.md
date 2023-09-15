@@ -370,4 +370,16 @@ Functions allow us to create reusable code in Javascript.
     function ourReusableFunction() { <- Opening curly brackets (Start of a function, when called)
         console.log("Hello, World");
     } <- Closing curly brackets (End of a function, when called)
-    ourReusableFunction();
+
+    ourReusableFunction();      <- calling a function
+
+## Passing Values to Functions with Arguments
+Parameters are variables that act as place holders for the values that are to be input to a function when it is called.
+
+                                 Parameters
+                                  |
+                                  \/
+    function our FunctionWithArgs(a, b) {
+        console.log(a - b);
+    }
+    ourFunctionWithArgs(10, 5); // Outputs 5
