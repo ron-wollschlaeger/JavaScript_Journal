@@ -61,11 +61,13 @@ Variables and function names in JavaScript are Case sensitive. That means that c
     will not be assigned correctly.         will be assigned correctly.
                                             This is called Camel Case
 
+
 ## Adding numbers with '+'
     var sum = 10 + 10;
     console.log(sum)
     
     The console will show you "20".
+
 
 ## Subtraction numbers with '-'
     var difference = 45 - 33;
@@ -73,17 +75,20 @@ Variables and function names in JavaScript are Case sensitive. That means that c
 
     The console will show you "12".
 
+
 ## Multiplying numbers with '*'
     var product = 8 * 10;
     console.log(product)
 
     The console will show you "80".
 
+
 ## Dividing numbers with '/'
     var quotient = 66 / 33;
     onsole.log(quotient)
 
     The console will show you "2".
+
 
 ## Incrementing numbers (add 1)
 To increment a number means to add 1 to it.
@@ -95,6 +100,7 @@ To increment a number means to add 1 to it.
     This will increment or add 1
     to my variable.
 
+
 ## Decrementing numbers (subtract 1)
 To decrementing a number means to subtract 1 from it.
 
@@ -105,6 +111,7 @@ To decrementing a number means to subtract 1 from it.
     This will decrement or subtract
     1 from my variable.
 
+
 ## Decimal numbers
 Decimal numbers are sometimes referred to as floating point numbers or floats.
 
@@ -112,6 +119,7 @@ Decimal numbers are sometimes referred to as floating point numbers or floats.
     decimal point number.
 
     var myDecimal = 2.746;  <- decimal number
+
 
 ## Finding a remainder
 The remainder operator looks like a '%' sign, and it gives the remainder of a division of tow numbers.
@@ -124,6 +132,7 @@ The remainder operator looks like a '%' sign, and it gives the remainder of a di
 
 This operator is often used to define if something is even or odd. If you can divide a number by 2 and the remainder is 0, that means the number is even.
 
+
 ## Compound assignment with augmented addition
     var a = 3;
     var b = 17;
@@ -132,6 +141,7 @@ This operator is often used to define if something is even or odd. If you can di
     a = a + 12;     ->      a += 12;
     b = 9 + b;      ->      b += 9;
     c = c + 7;      ->      c += 7;
+
 
 ## Compound assignment with augmented subtraction
     var a = 11;
@@ -142,6 +152,7 @@ This operator is often used to define if something is even or odd. If you can di
     b = b - 15;     ->      b -= 15;
     c = c - 1;      ->      c -= 1;
 
+
 ## Compound assignment with augmented multiplication
     var a = 3;
     var b = 17;
@@ -150,6 +161,7 @@ This operator is often used to define if something is even or odd. If you can di
     a = a * 12;     ->      a *= 12;
     b = 9 * b;      ->      b *= 9;
     c = c * 7;      ->      c *= 7;
+
 
 ## Compound assignment with augmented division
     var a = 11;
@@ -160,9 +172,11 @@ This operator is often used to define if something is even or odd. If you can di
     b = b / 15;    ->    b /= 15;
     c = c / 1;     ->    c /= 1;
 
+
 ## Declare string variables
     var firstName = "Ron";
     var lastName = "Wollschläger";
+
 
 ## Escaping literal quotes in strings
 You can not use double quote inside an double quote. To tell JavaScript that this is a normal quotation mark, you need to put backslash(\) in front of an quotation mark("). Alternatively you can use double quote(") inside an single quote(').
@@ -175,6 +189,7 @@ You can not use double quote inside an double quote. To tell JavaScript that thi
 
     Right - Alternative
     var myString = 'I am a "double quoted" string inside "double quotes"';    
+
 
 ## Escape sequences in strings
 CODE    OUTPUT
@@ -190,11 +205,13 @@ CODE    OUTPUT
     var myString = "FirstLine\n\t\\SecondLine\nThirdLine";
     console.log(myString)       ->      Will show three different lines.
 
+
 ## Concatenating strings with plus operator
     var myString = "I come first. " + "I come second.";
     console.log(myString)       ->      "I come first. I come second."
 
 Don't forget to add a space at the end of your first string.
+
 
 ## Concatenating strings with plus equals operator
 Just like using numbers, '+=' means that you take whatever is on the end here and add it to the variable.
@@ -203,12 +220,14 @@ Just like using numbers, '+=' means that you take whatever is on the end here an
     myString += "I come second.";
     console.log(myString)       ->      "I come first. I come second."
 
+
 ## Constructing strings with variables
 You can concatenate strings together with variables.
 
     var ourName = "iCodeThis";
     var ourString = "Hello, our name is " + ourName + ", how are you?";
     console.log(ourString)       ->      "Hello, our name is iCodeThis, how are you?"
+
 
 ## Appending variables to strings
 You can append variables to strings with this += operator.
@@ -218,6 +237,7 @@ You can append variables to strings with this += operator.
     ourString += anAdjective;
     console.log(ourString)       ->      "iCodeThis is awesome!"
 
+
 ## Find length of string
 To find the length of a string, we use the '.length' property to find the length.
 
@@ -226,6 +246,7 @@ To find the length of a string, we use the '.length' property to find the length
 
     firstNameLength = firstName.length;
     console.log(firstNameLength)       ->      "3"
+
 
 ## Bracket notation to find first character in string
 Bracket notation is a way to get a character at a specific index within a string.
@@ -240,6 +261,7 @@ Bracket notation is a way to get a character at a specific index within a string
     firstLetterOfFirstName = firstName[0];
     console.log(firstLetterOfFirstName)     ->      "R"
 
+
 ## String Immutability
 Strings are immutable, meaning they can not be altered once created. This does not mean they can not be changed, just that the individual characters of a string literal can not be changed. 
 
@@ -252,12 +274,14 @@ Strings are immutable, meaning they can not be altered once created. This does n
     myString = "Hello World";
     console.log(myString)       ->      "Hello World"
 
+
 ## Bracket notation to find Nth character in string
 You can use bracket notation to get any character position in a string.
 
     var firstName = "Ron";
     var secondLetterOfFirstName = firstName[1];
     console.log(secondLetterOfFirstName)        ->      "o"
+
 
 ## Bracket notation to find last character in string
 You can also use bracket notation to find the last letter in a string.
@@ -269,6 +293,7 @@ You can also use bracket notation to find the last letter in a string.
     We are doing -1 because the computer starts to count with 0.
     That means R = 0, o = 1, n = 2. With '.length' we get "3",
     because it start with 1. We can fix it, when we subtract it by 1.
+
 
 ## Bracket notation to find Nth-to-Last character in string
 To get the second last letter or more, you can simply subtract more, depend on however much you want from the length of the sting.
@@ -287,16 +312,19 @@ To get the second last letter or more, you can simply subtract more, depend on h
 
     console.log(wordBlanks("dog", "big", "ran", "quickly"))
 
+
 ## Store multiple values with arrays
 Arrays allow you to store several pieces of data in one place.
 
     var ourArray = ["Ron", 33, "Germany"];
     console.log(ourArray[2])        ->      "Germany"
 
+
 ## Nested arrays
 When one of the elements in an array is another array, that's called a nested array or multidimensional array.
 
     var ourArray = [["the universe, 42"], ["everything", 101010]]
+
 
 ## Access array data with indexes
     var ourArray = [50, 60, 70];
@@ -304,6 +332,7 @@ When one of the elements in an array is another array, that's called a nested ar
 
     var ourData = ourArray[1]
     console.log(ourData)        ->      "60"
+
 
 ## Modify array data with indexes
 You can use array indexes to modify arrays.
@@ -336,6 +365,7 @@ You can have pinned data to the end of an array with the push function.
     ourArray.push(["Bambi", "Sandra"]);
     console.log(ourArray)       ->      ["Ron", "Florin", "Chris", "Christiano", "skinnyK", ["Bambi, "Sandra"]]
 
+
 ## Manipulate Arrays with pop()
 We can remove an item from an array with the pop() function here.
 
@@ -343,12 +373,14 @@ We can remove an item from an array with the pop() function here.
     var removedFromOurArray = ourArray.pop();
     // removedFromOurArray now equals 3 and ourArray now equals [1,2]
 
+
 ## Manipulate Arrays with shift()
 The shift() function is very similar to the pop function except it removes the first element of the array instead of the final element.
 
     var ourArray = ["Ron", "Peter", ["cat"]];
     var removedFromOurArray = ourArray.shift();
     //removedFromOurArray now equals "Ron" and ourArray now equals ["Peter", ["cat"]]
+
 
 ## Manipulate arrays with unshift()
 The unshift() function is similar to the push() array function. While push() adds an element to the end of the array, unshift() adds at element to the beginning of the array.
@@ -358,9 +390,11 @@ The unshift() function is similar to the push() array function. While push() add
     console.log(ourArray)
     ourArray = ["Florin", "Ron", "Minions", "JJ];
 
+
 ## Shopping List
 Another example of nested arrays:
     var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]]
+
 
 ## Write reusable code with functions
 Functions allow us to create reusable code in Javascript.
@@ -373,10 +407,11 @@ Functions allow us to create reusable code in Javascript.
 
     ourReusableFunction();      <- calling a function
 
+
 ## Passing Values to Functions with Arguments
 Parameters are variables that act as place holders for the values that are to be input to a function when it is called.
 
-                                 Parameters
+                                 Parameters: a and b (Can be anything)
                                   |
                                   \/
     function our FunctionWithArgs(a, b) {
