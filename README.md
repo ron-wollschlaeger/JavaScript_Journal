@@ -485,4 +485,15 @@ You can return a value from a function with this return statement. Return also e
 
 
 ## Understanding Undefined Value Returned from a Function
-Next...
+Functions can have return statements, but they don't have to. In this case, this function adds 3 to the sum variable which is a global variable, because its defined before the function.
+
+    var sum = 0;    <- Global variable
+    function addThree() {
+        sum = sum + 3;
+    }
+
+    function addFive() {
+        sum += 5;
+    }
+
+In both cases the return would be undefined. So, if you don't soecify a return vaule, the return value is just undefined.
