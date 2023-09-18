@@ -497,3 +497,5 @@ Functions can have return statements, but they don't have to. In this case, this
     }
 
 In both cases the return would be undefined. So, if you don't soecify a return vaule, the return value is just undefined.
+
+## Next...
